@@ -1,0 +1,11 @@
+pluginManagement {
+    plugins {
+        id 'software.amazon.smithy' version '0.7.0'
+    }
+}
+
+rootProject.name = 'the-daily-abstraction-gateway'
+
+includeBuild 'model'
+
+include 'server:codegen'
